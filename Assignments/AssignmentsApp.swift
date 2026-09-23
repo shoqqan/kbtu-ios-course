@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct AssignmentsApp: App {
+    init(){
+        runAssignment1()
+    }
     var body: some Scene {
         WindowGroup {
             ContentView()
